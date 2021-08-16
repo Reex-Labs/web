@@ -5,9 +5,9 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">Sobre</h1>
+              <h1 class="font-weight-light display-2">REEX</h1>
               <h1 class="font-weight-light display-1 mb-3">
-                Lorem ipsum dolor!
+                Криптовалюта
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
@@ -17,9 +17,9 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Это децентрализованный блокчейн с открытым исходным кодом, основанный на Tendermint и Cosmos SDK.
+                    Это POS-майнинг со стейкингом и получением процента от транзакций в сети.
+                    Это быстрые платежи за счет времени блока, составляющего 1 секунду.
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -29,9 +29,8 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    В ближайшее время Reex будет постоянно обновляться и получать новые функции, 
+                    такие как поддержка смарт-контрактов и связь с экосистемой Cosmos.
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -41,9 +40,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Эмиссия неограничена, но часть монет будет сжигаться для поддержания адекватного уровня инфляции.
                   </p>
                 </v-col>
               </v-row>

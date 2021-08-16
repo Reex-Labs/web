@@ -1,25 +1,12 @@
 <template>
-  <section class="pb-8" id="contact">
+  <section class="pt-5 pb-8" id="registration">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5">
-              <h1 class="font-weight-light display-1">Contate-nos</h1>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
-              </h3>
-              <h3 class="font-weight-light mt-3">
-                Telefone: +xx (xx) xxxxx-xxxx
-              </h3>
-              <h3 class="font-weight-light">
-                Email: email@email.com
-              </h3>
+              <h1 class="font-weight-light display-1">Напишите нам</h1>
+              
             </v-col>
             <v-col cols="12" sm="7">
               <v-form ref="form" v-model="valid" :lazy-validation="lazy">
@@ -87,7 +74,7 @@
 </template>
 
 <style scoped>
-#contact {
+#registration {
   background-color: #f4f7f5;
 }
 

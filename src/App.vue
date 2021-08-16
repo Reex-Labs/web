@@ -1,12 +1,13 @@
 <template>
   <v-app>
-    <navigation :color="color" :flat="flat" />
+    <Navigation :items="items" :color="color" :flat="flat" />
     <v-main class="pt-0">
-      <home />
-      <about />
-      <download />
-      <pricing />
-      <contact />
+      <Home />
+      <!-- <Video /> -->
+      <About />
+      <Faucet />
+      <!-- <Pricing /> -->
+      <Create />
     </v-main>
     <v-scale-transition>
       <v-btn
@@ -23,7 +24,7 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <foote />
+    <Footer />
   </v-app>
 </template>
 
@@ -37,31 +38,40 @@
 </style>
 
 <script>
-import navigation from "./components/Navigation";
-import foote from "./components/Footer";
-import home from "./components/HomeSection";
-import about from "./components/AboutSection";
-import download from "./components/DownloadSection";
-import pricing from "./components/PricingSection";
-import contact from "./components/ContactSection";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Home from "./components/HomeSection";
+import Video from "./components/VideoSection";
+import About from "./components/AboutSection";
+import Faucet from "./components/FaucetSection";
+import Pricing from "./components/PricingSection";
+import Create from "./components/CreateSection";
 
 export default {
   name: "App",
 
   components: {
-    navigation,
-    foote,
-    home,
-    about,
-    download,
-    pricing,
-    contact,
+    Navigation,
+    Footer,
+    Home,
+    Video,
+    About,
+    Faucet,
+    Pricing,
+    Create,
   },
 
   data: () => ({
     fab: null,
     color: "",
     flat: null,
+    items: [
+      ["mdi-home-outline", "#Начало", "#hero"],
+    //   ["mdi-information-outline", "Sobre", "#features"],
+      ["mdi-download-box-outline", "#Получить REEX", "#faucet"],
+    //   ["mdi-currency-usd", "Preços", "#pricing"],
+      ["mdi-email-outline", "#Создать кошелек", "#create"],
+    ],
   }),
 
   created() {
