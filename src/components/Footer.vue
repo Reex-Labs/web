@@ -40,19 +40,19 @@ export default {
     icons: [
       {
         text: "mdi-facebook",
-        link: "",
+        link: "https://www.facebook.com/reex.network",
       },
       {
         text: "mdi-twitter",
-        link: "",
+        link: "https://twitter.com/@ReexCoin",
       },
-      {
-        text: "mdi-linkedin",
-        link: "",
-      },
+      // {
+      //   text: "mdi-linkedin",
+      //   link: "",
+      // },
       {
         text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
+        link: "https://www.instagram.com/reex.network/",
       },
     ],
   }),
